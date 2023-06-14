@@ -29,6 +29,10 @@ i {
   position: sticky;
 }
 
+.headerPaginas i {
+  color: black;
+}
+
 /*index*/
 .inicio {
   background-image: url(../img/coca-cola.jpg);

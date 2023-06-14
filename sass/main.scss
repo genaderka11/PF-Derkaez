@@ -161,6 +161,12 @@ span{
     border-radius: 50px;
     color: white;
 }
+@media only screen and (max-width : 900px){
+    .referencias{
+        display: none;
+    }
+}
+/* header paginas */
 .header{
     display: flex;
     justify-content: space-between;

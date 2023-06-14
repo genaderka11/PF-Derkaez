@@ -149,6 +149,12 @@ span{
     border-radius: 50px;
     color: white;
 }
+.fa{
+    background-color: rgb(55, 55, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -161,6 +167,7 @@ a{
 li{
     list-style: none;
 }
+/*contacto*/
 .formulario{
     display: flex;
     justify-content: center;

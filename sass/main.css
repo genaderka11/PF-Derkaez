@@ -56,6 +56,10 @@ i {
 .productos {
   align-items: center;
 }
+.btn:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
 
 .menu {
   margin-top: 11px;

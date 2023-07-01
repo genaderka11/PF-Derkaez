@@ -1,44 +1,49 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
+  }
+  
+body {
     scroll-behavior: smooth;
 }
-/*header*/
-.dropdown{
+  
+  /*header*/
+.dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .dropdown-item:hover{
-        background-color: whitesmoke;
-    }
 }
-i{
+.dropdown .dropdown-item:hover {
+    background-color: whitesmoke;
+}
+  
+  i {
     font-size: larger;
     color: white;
-}
-.site-header{
+  }
+  
+  .site-header {
     background-color: black;
     padding: 1rem 0 3rem 0;
     position: sticky;
-}
-.headerPaginas {
-    i{
-        color: black;
-    }
-    
-}
-/*index*/
-.inicio{
-    background-image: url(../img/coca-cola.jpg);
+  }
+  
+  .headerPaginas i {
+    color: black;
+  }
+  
+  /*index*/
+  .inicio {
+    background-image: url(../mi-repositorio/img/coca-cola.jpg);
     background-position: center center;
-    height:100vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
+    
 }
-.texto-inicio{
+
+.texto-inicio {
     color: white;
     font-size: 2rem;
     position: absolute;
@@ -48,6 +53,7 @@ i{
     text-shadow: 0 0 5px rgb(88, 88, 88);
     text-align: center;
   }
+  
   .texto-inicio h1 {
     font-size: 3rem;
   }
@@ -55,69 +61,76 @@ i{
   .texto-inicio p {
     font-size: 1, 5rem;
   }
-
+  
   .mas-vendidos h2 {
     text-align: center;
     color: red;
     margin: 10px;
   }
-.mas-vendidos{
-    h2{
+  
+  .mas-vendidos h2 {
     text-align: center;
     color: red;
     margin: 10px;
-    }
-}
-.mas-vendidos {
-    .card{ 
+  }
+  
+  .mas-vendidos .card {
     display: inline-block;
-    margin: 1px 44px ;
-    }
-}
-.productos{
+    margin: 1px 44px;
+  }
+  
+  .productos {
     align-items: center;
-    
-}
-article{
-    .btn:hover{
-        transform: scale(1.2);
-        transition: 200ms;
-    }
-}
-.menu{
+  }
+  
+  article .btn:hover {
+    transform: scale(1.2);
+    transition: 200ms;
+  }
+  
+  .menu {
     margin-top: 11px;
-}
-i{
+  }
+  
+  i {
     color: rgb(255, 255, 255);
-}
-.logo{
+  }
+  
+  .logo {
     text-align: center;
     margin-top: 20px;
-}
-.carrito{
+  }
+  
+  .carrito {
     text-align: end;
-    margin-top: 22px;   
-}
-.cerveza{
+    margin-top: 22px;
+  }
+  
+  .cerveza {
     text-align: center;
-}
-.gaseosa{
+  }
+  
+  .gaseosa {
     text-align: center;
-}
-.vodka{
+  }
+  
+  .vodka {
     text-align: center;
-}
-.energeticas{
+  }
+  
+  .energeticas {
     text-align: center;
-}
-.pag-productos{
+  }
+  
+  .pag-productos {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-}
-/*footer*/
-.pie{
+  }
+  
+  /*footer*/
+  .pie {
     color: red;
     background-color: white;
     margin: 20px;
@@ -125,98 +138,87 @@ i{
     justify-content: space-between;
     position: relative;
     bottom: 0px;
-
-    .logo-pie{
+  }
+  .pie .logo-pie {
     margin-left: 39px;
     padding: 5px;
-    }
-
-    h3{
-        text-align: center;
-    }
-
-    .redes{
-        ul{
-            display: flex;
-            justify-content: space-around; 
-        }
-    }
-
-    ul{
-        li{
-            a{
-                color: black
-            }
-        }
-    }
-
-    .newsletter {
-        input{
-            padding: 7px 15px;
-            font-size: 13px;
-            border: 1px solid #ff0000;
-            line-height: 12px;    
-            border-radius: 10px;
-        }
-    }
-    .newsletter button{
-        background-color: #ff0000;
-        color: #eae3d9;
-        line-height: 15px;
-        padding: 8px 18px;
-        font-size: 13px;
-        border-radius: 10px;
-        border: 0px
-    }
-}
-
-span{
+  }
+  .pie h3 {
+    text-align: center;
+  }
+  .pie .redes ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pie ul li a {
+    color: black;
+  }
+  .pie .newsletter input {
+    padding: 7px 15px;
+    font-size: 13px;
+    border: 1px solid #ff0000;
+    line-height: 12px;
+    border-radius: 10px;
+  }
+  .pie .newsletter button {
+    background-color: #ff0000;
+    color: #eae3d9;
+    line-height: 15px;
+    padding: 8px 18px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 0px;
+  }
+  
+  span {
     font-size: 23px;
-}
-.wsp{
+  }
+  
+  .wsp {
     background-color: rgb(67, 255, 67);
-    padding: 8px ;
+    padding: 8px;
     border-radius: 50px;
     color: white;
-}
-.ig{
+  }
+  
+  .ig {
     background-color: rgb(255, 94, 94);
     padding: 8px;
     border-radius: 50px;
     color: white;
-}
-.fa{
+  }
+  
+  .fa {
     background-color: rgb(55, 55, 255);
     padding: 8px;
     border-radius: 50px;
     color: white;
-}
-@media only screen and (max-width : 900px){
-    .referencias{
-        display: none;
-    }
-}
-/* header paginas */
-.header{
+  }
+  /* header paginas */
+  .header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-}
-a{
+  }
+  
+a {
     text-decoration: none;
-}
-li{
+  }
+  
+li {
     list-style: none;
 }
-/*contacto*/
-.formulario{
+  
+  /*contacto*/
+  .formulario {
     display: flex;
     justify-content: center;
-}
-.email{
-    width: 100%;   
-}
-.consulta{
+  }
+  
+  .email {
     width: 100%;
-}
+  }
+  .consulta {
+    width: 100%;
+  }

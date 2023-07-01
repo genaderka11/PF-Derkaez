@@ -35,7 +35,7 @@ body {
   
   /*index*/
   .inicio {
-    background-image: url(../mi-repositorio/img/coca-cola.jpg);
+    background-image: url(../img/coca-cola.jpg);
     background-position: center center;
     height: 100vh;
     width: 100%;
@@ -221,4 +221,8 @@ li {
   }
   .consulta {
     width: 100%;
+  }
+  /*medias*/
+  @media screen (min){
+    
   }

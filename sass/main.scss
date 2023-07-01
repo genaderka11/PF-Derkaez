@@ -74,9 +74,15 @@ i{
     margin: 1px 44px ;
     }
 }
-
 .productos{
     align-items: center;
+    
+}
+article{
+    .btn:hover{
+        transform: scale(1.2);
+        transition: 200ms;
+    }
 }
 .menu{
     margin-top: 11px;
